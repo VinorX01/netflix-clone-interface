@@ -52,6 +52,7 @@ h2.logo {
 nav#menu ul {
     display: flex;
     list-style: none;
+    margin: 0px;
 }
 
 nav#menu li {
@@ -69,9 +70,6 @@ nav#menu li a:hover {
 }
 
 /* Elementos do cartaz*/
-
-#cartaz {
-}
 
 .tag {
     display: flex;
@@ -102,7 +100,7 @@ button {
     color: var(--branco);
     padding: 10px;
     border: none;
-    border-radius: 3px;
+    border-radius: 2px;
     font-weight: 600;
     cursor: pointer;
 }
@@ -137,6 +135,14 @@ div.info div#texto {
     margin-bottom: 30px;
 }
 
+.margin-left {
+    margin-left: 5px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
 div.info div#texto .title {
     font-size: 25pt;
 }
@@ -145,14 +151,6 @@ div.info div#texto .dados {
     display: flex;
     flex-direction: row;
     font-size: 11pt;
-}
-
-.margin-left {
-    margin-left: 5px;
-}
-
-.margin-left-10 {
-    margin-left: 10px;
 }
 
 div.info div#texto .sinopse {
@@ -164,7 +162,7 @@ div.image {
     background-image: url('../media/images/alerta-vermelho.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 60%;
+    width: 70%;
     height: 400px;
 }
 
@@ -178,6 +176,40 @@ img {
     width: 100%;
 }
 
-svg {
-    width: 12px;
+.box-filme {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.owl-carousel {
+    margin-top: 20px;
+
+}
+
+a {
+    cursor: pointer;
+}
+
+div.item h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+footer a{
+    display: flex;
+    flex-direction: row;
 }

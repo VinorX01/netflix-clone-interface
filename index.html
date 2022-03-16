@@ -4,17 +4,24 @@
     <head>
         <meta charset='utf-8'>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href='assets/css/style.css'></link>
+        <link rel="stylesheet" href='assets/css/style.css'>
+        <link rel="shortcut icon" href="assets/media/images/netflix.png">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
+        
         <title>Netflix</title>
-        <script src="https://kit.fontawesome.com/fa84a0d977.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
             <div class="container">
-                <h2 class="logo">NETFLIX</h2>
+                <a href="/"><h2 class="logo">NETFLIX</h2></a>
+                
                 <nav id="menu">
-                    <ul>
-                        <li><a href='#'>Filmes</a></li>
+                    <ul class="margin-bottom-30">
+                        <li><a href="#">Filmes</a></li>
                         <li><a href='#'>Séries</a></li>
                         <li><a href='#'>Animes</a></li>
                         <li><a href='#'>Infantil</a></li>
@@ -23,7 +30,7 @@
             </div>
         </header>
         <main>
-            <div id="cartaz" class="container">
+            <div id="cartaz" class="container margin-bottom-30">
                 <div class="info">
                     <div id="texto">
                         <div class="tag">
@@ -38,14 +45,18 @@
                         </div>
                         <p class="sinopse margin-bottom-30">Um alerta vermelho da Interpol é emitido e o agente do FBI John Hartley assume o caso. Durante sua busca, ele se vê diante de um assalto ousado e é forçado a se aliar ao maior ladrão de arte da história, Nolan Booth, para capturar a ladra de arte mais procurada do mundo atualmente, Sarah Black.</p>
                         <div id="botoes">
-                            <button class="bg-white color-black botao">
-                                <i class="fa-solid fa-play"></i>
-                                <p class="margin-left">Assistir</p>
-                            </button>
-                            <button class="bg-transparente margin-left-10 botao">
-                                <i class="fa-solid fa-circle-info"></i>
-                                <p class="margin-left">Mais informações</p>
-                            </button>
+                            <a href="https://youtu.be/dVTAcGw6H9s" target="_blank" >
+                                <button class="bg-white color-black botao">
+                                    <i class="fa-solid fa-play"></i>
+                                    <p class="margin-left">Assistir</p>
+                                </button>
+                            </a>
+                            <a href="https://www.netflix.com/br/" target="_blank">
+                                <button class="bg-transparente margin-left-10 botao">
+                                    <i class="fa-solid fa-circle-info"></i>
+                                    <p class="margin-left">Mais informações</p>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -53,10 +64,119 @@
                     <div></div>
                 </div>                
             </div>
+            <h3 class="margin-left-10">Populares na Netflix</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/1.jpg">
+                        <h4>Vikings</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                       <img class="box-filme" src="assets/media/images/2.jpg"> 
+                       <h4>Lucifer</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/3.jpg">
+                        <h4>Round 6</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/4.jpg">
+                        <h4>Cuphead: A Série</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/5.jpg">
+                        <h4>F1: Dirigir para Viver</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/6.jpg">
+                        <h4>Alerta Vermelho</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/7.jpg">
+                        <h4>Sete Pecados Capitais</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/8.jpg">
+                        <h4>Anne com "E"</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/9.jpg">
+                        <h4>Caçadores de Trolls</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/10.jpg">
+                        <h4>Stranger Things</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/11.jpg">
+                        <h4>Resgate</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/12.jpg">
+                        <h4>Esquadrão 6</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/13.jpg">
+                        <h4>Mogli: Entre Dois Mundos</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/14.jpg">
+                        <h4>The Old Guard</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/15.jpg">
+                        <h4>Nosso Planeta</h4>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="https://www.netflix.com/br/" target="_blank">
+                        <img class="box-filme" src="assets/media/images/16.jpg">
+                        <h4>Queda Livre</h4>
+                    </a>
+                </div>
+            </div>
         </main>
             
-        <footer>
-
+        <footer class="margin-bottom-30">
+            <p class="margin-bottom-10">Desenvolvido por VinorX01</p>
+            <a href="https://github.com/VinorX01" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <p class="margin-left">GitHub</p>
+            </a>
         </footer>
+
+        <script src="https://kit.fontawesome.com/fa84a0d977.js" crossorigin="anonymous"></script>
+        <script src="assets/javascript/owl/jquery.min.js"></script>
+        <script src="assets/javascript/owl/owl.carousel.min.js"></script>
+        <script src="assets/javascript/owl/setup.js"></script>
+        <script src="assets/javascript/functions.js"></script>
     </body>
 </html>
